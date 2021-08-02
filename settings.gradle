@@ -1,0 +1,4 @@
+//include ':mylibrary'
+include ':gw_networking_sdk'
+include ':app'
+rootProject.name = "gateway_sdk"

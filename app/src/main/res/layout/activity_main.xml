@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello gw networking sdk!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/get_engr_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取工程模式"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="复位"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <Button
+        android:id="@+id/dp_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送DP"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <Button
+        android:id="@+id/sync_net_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="同步网络模式"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <Button
+        android:id="@+id/set_secruity_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置布防撤防"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <Button
+        android:id="@+id/get_secruity_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取安防状态"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <Button
+        android:id="@+id/sync_alarm_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="同步报警状态"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="700dp" />
+
+    <Button
+        android:id="@+id/sub_device_heartbeat_man"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动子设备心跳管理"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="700dp" />
+
+    <Button
+        android:id="@+id/update_subdevice_onoffline_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更新子设备在/离线状态"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="700dp" />
+
+    <Button
+        android:id="@+id/traversal_device"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="遍历子设备"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="700dp" />
+
+    <Button
+        android:id="@+id/native_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内存泄露检测开始"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="700dp" />
+
+    <Button
+        android:id="@+id/native_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内存泄露检测结束"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="700dp" />
+</LinearLayout>
+
