@@ -46,7 +46,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     // -SNAPSHOT
     //api project(':gw_networking_sdk')
-    implementation 'com.tuya.smart:tuyasmart-gw_networking_sdk:1.0.40'
+    implementation 'com.tuya.smart:tuyasmart-gw_networking_sdk:1.0.41'
 
     implementation 'pub.devrel:easypermissions:2.0.1'
     api 'com.alibaba:fastjson:1.1.67.android'
